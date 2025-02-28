@@ -27,3 +27,4 @@ class MemberSingleTaskView(generics.RetrieveUpdateDestroyAPIView):
 
 
 
+

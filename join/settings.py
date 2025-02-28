@@ -26,9 +26,11 @@ SECRET_KEY = 'django-insecure-t_t&u5e=o*j44*7p0l2+&@mx(995m%_5#4l7-k@s!s*@_t=sy3
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    "adrian-ensslin.developerakademie.net", 
     "127.0.0.1",
-    "localhost",
-]
+    "localhost"
+    ]
+
 
 CORS_ALLOW_METHODS = [
     "GET",
@@ -67,13 +69,15 @@ MIDDLEWARE = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
+    'https://adrian-ensslin.developerakademie.net',
     'http://127.0.0.1:5500',
     'http://localhost:5500',
-    ]
+]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:5500",
-    "http://localhost:5500",
+    "https://adrian-ensslin.developerakademie.net",
+    'http://127.0.0.1:5500',
+    'http://localhost:5500',
 ]
 
 
